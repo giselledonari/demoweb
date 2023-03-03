@@ -1,9 +1,10 @@
 const express = require("express");
 const serverless = require("serverless-http");
 const cors = require("cors");
-const {init, getPib}=require('../db.js')
+const {init, getPib}=require('./db.js')
 require('dotenv').config();
 
+//cambiado
 const app = express();
 
 
