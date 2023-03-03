@@ -21,5 +21,6 @@ app.get("/lista", async (req, res) => {
   res.send(respuesta)
 });
 
-
-module.exports.handler = serverless(app);
+app.listen(3000,async()=>{
+  await init()
+});
