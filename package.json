@@ -1,0 +1,30 @@
+{
+  "name": "demoweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giselledonari/demo_web.git "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giselledonari/demo_web/issues"
+  },
+  "homepage": "https://github.com/giselledonari/demo_web#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "node": "^19.6.1",
+    "npm": "^9.6.0",
+    "pg": "^8.9.0",
+    "serverless-http": "^3.1.1"
+  }
+}
